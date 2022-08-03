@@ -1,3 +1,4 @@
+//add 2 numbers
 let add = (a,b) => {
     let result = a + b
     console.log(result);
@@ -5,6 +6,7 @@ let add = (a,b) => {
 }
 add(5,6)
 
+//subtract 2 numbers
 let sub = (a,b) => {
     let result = a - b
     console.log(result);
@@ -12,6 +14,7 @@ let sub = (a,b) => {
 }
 sub(5,6)
 
+//display student results
 let studentResult = (num) => {
     if(num>50){
         console.log("Result is PASS");
@@ -22,6 +25,7 @@ let studentResult = (num) => {
 }
 studentResult(50)
 
+//display student results based on the numbers along with ranks
 let studentGrade = (number) => {
     if(number > 90){
         console.log("Grade A");
@@ -38,6 +42,7 @@ let studentGrade = (number) => {
 }
 studentGrade(91)
 
+//takes 3 numbers as arguments and perform multiplication
 let mul = (a,b,c) => {
     let result = a * b * c;
     console.log(result);
