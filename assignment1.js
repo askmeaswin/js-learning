@@ -1,3 +1,4 @@
+//average of 5 numbers
 function avg(a,b,c,d,e) {
     let result = (a + b + c + d + e)/5
     console.log("Avg of 5 numbers",result)
@@ -5,6 +6,7 @@ function avg(a,b,c,d,e) {
 }
 avg(2,5,6,7,8)
 
+//sum of 5 numbers
 let sum = (k,l,m,n,o) => {
     let result = k + l + m + n + o
     console.log("Sum of 5 numbers",result)
@@ -12,12 +14,14 @@ let sum = (k,l,m,n,o) => {
 }
 sum(10,20,30,40,50)
 
+//accepts two strings
 let concatString = (first_name, last_name) => {
     let result = first_name + ' ' + last_name
     console.log("combine the two string:",result);
 }
 concatString("Aswin", "Kumar")
 
+//calculates EMI
 let emi_calc = (p,r,t) => {
     let emi;
     r = r / (12 * 100); // one month interest
@@ -33,6 +37,7 @@ time = 2;
 emi = emi_calc(principal, rate, time);
 console.log(("Monthly EMI is = " + emi.toFixed(2)));
 
+//print the number is even or odd
 let evenOdd = (num) => {
     let result = (num %2) == 0
     if(result == true)
@@ -45,6 +50,8 @@ let evenOdd = (num) => {
     }
 }
 evenOdd(98)
+
+//calculate the average of numbers in a array
 let avgArr = [1,11,111,222,555]
 let total = 0
 for(let i in avgArr){
@@ -52,6 +59,7 @@ for(let i in avgArr){
 }
 console.log("Avg of numbers from array:",total/avgArr.length);
 
+//creates the Object
 let student = {
     name: "Aswin",
     collegeName: "SRM", 
