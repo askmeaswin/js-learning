@@ -1,4 +1,4 @@
-
+// program 3 & 6
 class courses{
 
     constructor(CourseName, price, validity, TrainerName, PhoneNumber){
@@ -24,6 +24,7 @@ let s = new courses("selenium", 3000, "1 year", "Navin", "0987654341");
 //s.showDetails()
 
 export {cou, abc, s}
+// Program 4 & 5
 /*
 class courses{
 
