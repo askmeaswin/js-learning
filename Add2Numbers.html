@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Two Numbers</title>
+<button onclick="myfun()">Click Me</button>
+<p>Sum = <input id="answer"></p>
+<script type="text/javascript">
+    function myfun() {
+        let n1 = parseInt(prompt("please enter number1"));
+        let n2 = parseInt(prompt("please enter number2"));
+        while(Number.isNaN(n1) || Number.isNaN(n2)){
+            alert("Please use the only number");
+            n1 = parseInt(prompt("please enter number1"));
+            n2 = parseInt(prompt("please enter number2"));
+            if(n1>0 && n2 > 0 ){
+                result = n1 + n2
+                document.getElementById("answer").value = result;
+        }
+        
+        }
+        
+        
+    }
+</script>
+</head>
+</html>

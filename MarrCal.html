@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Marriage Eligible Calculator</title>
+    
+    <p id="answer"></p>
+    <script type="text/javascript">
+        function myfun() {
+            let age = parseInt(prompt("please enter your age"))
+            try{
+                while(age<21){
+                    alert("Have some patience");
+                    age = parseInt(prompt("please enter your age"));
+                }
+            }
+                catch (error) {
+                    console.log("Have some patience",error.name);
+                    
+                    
+            }
+            document.getElementById("answer").value = alert("Eligible") 
+            }  
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+        myfun()
+    </script>
+</body>
+</html>
