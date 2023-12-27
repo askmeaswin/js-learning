@@ -19,7 +19,7 @@ let concatString = (first_name, last_name) => {
     let result = first_name + ' ' + last_name
     console.log("combine the two string:",result);
 }
-concatString("Aswin", "Kumar")
+concatString("Raj", "Kumar")
 
 //calculates EMI
 let emi_calc = (p,r,t) => {
